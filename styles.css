@@ -1,0 +1,265 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    margin: 44px 23px 0px 76px;
+    width: 100%;
+}
+
+.link-header{
+    font-weight: 600;
+    font-size: 24px;
+    line-height:29px;
+    color:#989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header{
+    background:#665AE1;
+    border-radius:20.5px;
+    width: 130px;
+    height:41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height:29px;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+main{
+    margin-top: 80px;
+    width: 100%;
+}
+
+.logo-img{
+    width: 568px;
+    height: 500px;
+    margin-left:125px;
+    display: inline-block;
+}
+
+.img-rd{
+    display: inline-block;
+    margin-right:86px;
+}
+
+section{
+    display: inline-block;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 100px;
+    line-height:122px;
+    color:#515151;
+    
+}
+
+h2{
+    font-weight: 500;
+    font-size: 58px;
+    line-height:71px;
+    color:#515151;
+
+    
+}
+
+p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height:29px;
+    color:#848484;
+    width: 515px;
+    margin-top:32px;
+    margin-bottom:65px;
+}
+
+.button-explore{
+    background:#ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border:none;
+    cursor: pointer;
+    filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+
+@media (max-width:1296px) {
+    section{
+        position: absolute;
+    }
+
+    .logo-img{
+        
+        margin-left:70px;
+        
+    }
+
+}
+@media (max-width:723px) {
+
+    header {
+        margin: 44px 23px 0px 20px;
+    }
+   section{
+    padding: 0 120px;
+   }
+
+ } 
+
+@media (max-width:600px) and (min-width:375px) {
+
+    body {
+    
+        height: 100%;
+        width: 100%;
+
+
+    }
+
+    
+
+    header {
+        display: none;
+    }
+
+    div {
+        padding: 0;
+        margin: 0;
+        height: 70vh;
+        width: 100vw;
+    }
+
+    .img-rd {
+        width: 354px;
+        height: 317px;
+        margin-top: 25%;
+        margin-left:14px;
+        margin-right:14px;
+        display: block;
+    }
+
+    .logo-img {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        margin: 0 30%;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-explore {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        display: block;
+        margin: 0 auto;
+        width: 239px
+    }
+
+    section{
+       
+        margin: 24px auto;
+        
+    }
+
+}
+
+ @media (max-width:374px) and (min-width: 51px){
+
+    body {
+    
+        height: 100%;
+        width: 100%;
+
+
+    }
+
+    
+
+    header {
+        display: none;
+    }
+
+    div {
+        padding: 0;
+        margin: 0;
+        height: 70vh;
+        width: 100vw;
+    }
+
+    .img-rd {
+        width: 354px;
+        height: 317px;
+        margin-top: 25%;
+        margin-left:14px;
+        margin-right:14px;
+        display: block;
+    }
+
+    .logo-img {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        margin: 0 30%;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-explore {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        display: block;
+        margin: 0 auto;
+        width: 239px
+    }
+
+    section{
+       
+        margin: 24px auto;
+        
+    }
+} 
