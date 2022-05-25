@@ -2,7 +2,7 @@
 treinando HTML
 
 
-<img src="./assets/We-care-projets" alt="imagem do projeto">
+<img src="./assets/We-care-projets.png" alt="imagem do projeto">
 
 > 
 Página estática , responsiva
@@ -26,7 +26,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="./assets/profilelinked.jpeg" width="100px;" alt="Foto do Kevin Mateus no GitHub"/><br>
+        <img src="./assets/profile-linked.jpeg" width="100px;" alt="Foto do Kevin Mateus no GitHub"/><br>
         <sub>
           <b>Kevin Mateus</b>
         </sub>
